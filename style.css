@@ -1,0 +1,605 @@
+body { 
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #EFEFEF
+    ;
+}
+/* Header  */
+.header {
+    background-color:#333333 ;
+    display: flex !important;
+    justify-content: space-between;
+    
+    padding: 20px 10px !important;
+}
+
+.logo { 
+    font-family: "Long Cang", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo p { 
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.logo i { 
+    font-size: 1rem;
+    color: #f1c40f;
+    margin-right: 10px;
+}
+
+nav ul { 
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+
+}
+nav ul li{ 
+    text-decoration: none;
+    list-style: none;
+    
+    
+    margin: 10px 11px;
+    font-size: 0.9em !important;
+}
+
+nav ul li a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Introduction */
+.container { 
+    
+    margin: auto;
+
+
+}
+
+.intro {
+    min-height: 60vh;
+    background-image: url(images/frame.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+
+h1 { 
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 2.3em !important;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px !important;
+    line-height: 1.2em !important;
+  
+
+}
+
+.titre-1 { 
+    display: flex;
+    justify-content: center ;
+    max-width: 500px;
+    
+}
+h1 span { 
+    color: #f1c40f;
+    font-weight: 300 !important;
+    text-align: center !important;
+   
+}
+.titre-2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 { 
+    font-size: 1.3em !important;
+    text-align: center;
+    color: white;
+    display: flex;
+    font-weight: 300 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: thin !important;
+    max-width: 500px;
+    line-height: 1.2em !important;
+
+
+}
+
+/* SERVICES */
+
+.service h3{ 
+    font-size: 1.7em !important;
+    text-align: left;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 100 !important;
+    margin-bottom: 75px !important;
+    padding-left: 80px;
+
+}
+
+.service { 
+    margin : 150px auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+
+.service .row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-1, .card-2 { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: rgb(154 154 154 / 30%) 1px solid;
+
+}
+
+.card-3 { 
+    display: flex;
+    flex-direction: column;
+    border: rgb(154 154 154 / 30%) 1px solid;
+}
+
+.card-image-1 { 
+    width: 300px ;
+    height: 200px;
+
+    
+}
+.card-image-1 img { 
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.card-image-2 { 
+    width: 300px ;
+    height: 200px;
+}
+.card-image-2 img { 
+width: 100%;
+min-height: 100%;
+object-fit: cover;
+}
+
+.card-image-3 {
+    width: 300px ;
+    height: 200px;
+
+}
+.card-image-3 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.card-text { 
+    padding: 31px 20px;
+    text-align: center;
+    font-size: 0.8rem !important;
+    line-height: 2rem;
+    font-weight: 100;
+
+}
+
+.card-text hr {
+    width: 20% ;
+}
+
+/* TEAM  */
+
+.team { 
+   display: flex;
+   flex-direction: row;
+   height: 45vh; 
+   width: 100%;
+}
+
+.team .row { 
+    display: flex;
+    align-items: center;
+}
+
+.team .content-2 { 
+    background-color:#333333 ;
+    color: #fff !important;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   
+    justify-content: center;
+    padding: 0px 60px;
+    padding-right: 70px;
+
+}
+
+.team .content-2 h3  { 
+color: #fff;
+font-weight: 600  !important;
+text-align: left;
+font-size: 1.3rem;
+margin-bottom: 30px;
+}
+.team .content-2 h3 span { 
+    color: #f1c40f !important;
+    font-weight: 100 !important;
+}
+
+.team .content-2 p { 
+
+    line-height: 1.6rem;
+    font-weight: 100 !important;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.team .content-1 { 
+ width: 50%;
+ height: 100%;
+}
+.team .content-1 img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* AVIS */
+
+.avis { 
+    margin : 60px auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;  
+    
+
+}
+
+.avis h3 {
+
+    font-size: 1.7em !important;
+    text-align: left;
+    color: black;
+    letter-spacing: 0.7px;
+    font-weight: 100 !important;
+    margin-bottom: 50px !important;
+    padding-left: 80px;
+    
+}
+
+.avis .row {
+     display: flex;
+     flex-direction: column;
+     margin: 0 60px;
+     
+}
+
+.avis-1, .avis-2, .avis-3 {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 45px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
+    height:140px
+
+}
+.avis-text p{
+    font-weight: 100 ;
+    line-height: 1.3em;
+}
+
+.avis-user img { 
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.avis-user p {
+    font-weight: 100;
+ }
+
+.avis-user p span { 
+    font-style: italic;
+    color: rgb(154, 154, 154);
+    margin-top: 10px;
+    display: block;
+}
+.avis-text { 
+    padding: 0px 40px;
+
+}
+
+.fa-quote-right { 
+    font-size: 1.3em;
+    margin-left: 8px;
+}
+.fa-quote-left {
+    font-size: 1.3em;
+    margin-right: 8px;
+}
+
+
+/* FORMULAIRE  */
+.formulaire { 
+    width: 100%;
+    height: 50vh;
+    background-color:#333333;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    padding-bottom: 70px;
+}
+
+.formulaire h3 {
+font-size: 1.7em !important;
+text-align: left;
+color: rgb(255, 255, 255);
+letter-spacing: 0.7px;
+font-weight: 100 !important;
+margin-bottom: 75px !important;
+
+}
+
+.formulaire h3 span {
+    color: #f1c40f;
+}
+
+.formulaire .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input { 
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: #333333;
+    border-style: none;
+    border-bottom: 1px grey solid;
+    color: #fff;
+    width: 450px;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight:600 !important;
+    font-size: 1em;
+    
+}
+
+form input::placeholder { 
+    text-align: left;
+}
+
+form .btn { 
+    padding: 10px 30px;
+    background-color: #f1c40f;
+    border: #f1c40f 1px solid;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+   
+}
+
+
+/* FOOTER  */
+
+footer { 
+    width: 100%;
+    height: 15vh;
+    background-color: #686868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.7em;
+    color: white;
+}
+
+
+
+
+
+
+/* RESPONSIVE  */
+
+@media (max-width:500px) { 
+.header { 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+.logo { 
+    margin-left: 0px;
+}
+nav { 
+    width: 100%;
+}
+nav ul { 
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 100%;
+    align-items: center;
+}
+nav ul li {
+    margin: 10px 0;
+    border-bottom: 2px solid #858585;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.intro { 
+    padding: 30px 20px;
+}
+
+.service {
+    margin: 50px auto;
+}
+
+.service h3 {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 30px !important;
+    padding: 0px 15px;
+    font-size: 2em !important;
+    line-height: 1.2em;
+}
+
+
+.card-1, .card-2,.card-3 { 
+    margin: 10px 0px;
+}
+
+.card-text {
+    font-size: 1rem !important;
+}
+
+
+.team { 
+    height: 100%;
+}
+.team .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.team .content-1, .team .content-2 { 
+    width: 100%;
+    padding: 0px;
+    
+    
+}
+
+.team .content-2 {
+    
+    min-height: 70vh;
+}
+
+.team .content-2 h3 { 
+width: 80%;
+margin-top:50px;
+margin-bottom: 30px;
+margin-right: auto;
+margin-left: auto;
+line-height: 1.5em;
+
+
+}
+
+.team .content-2 p {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px; 
+
+}
+.avis { 
+    margin:30px auto;
+}
+.avis h3 { 
+    padding-left: 0px;
+    margin: 25px 80px;
+    font-size: 2em !important;
+    line-height: 1.2em;
+}
+
+.avis-1, .avis-2, .avis-3 {
+    display: flex;
+    padding: 40px 30px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+   
+}
+
+
+.avis-2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.avis-user {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.avis-user img { 
+    margin-bottom: 20px;
+}
+
+.avis .row {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.formulaire {
+    height: 60vh;
+    padding: 30px 0px;
+}
+.formulaire .row {
+    width: 100%;
+}
+form input { 
+
+width: 80% ;
+font-size: 1.1em;
+}
+.formulaire h3 { 
+    margin: 40px !important;
+    text-align: center;
+    font-size: 1.8em !important;
+}
+
+footer div{ 
+    font-size: 1em;
+
+}
+
+}
